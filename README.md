@@ -14,6 +14,10 @@ Make sure you have requests installed
 pip install requests
 ```
 PySimpleGUI
-```console
+```
 pip install PySimpleGUI
+```
+Typing
+```
+pip install typing
 ```
