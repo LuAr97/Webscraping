@@ -2,8 +2,10 @@
 Libraries used:
 
 Beautifulsoup4
-``` pip install beautifulsoup4
+```python
+pip install beautifulsoup4
 ```
 LXML
-``` pip install lxml
+```python
+pip install lxml
 ```
