@@ -13,3 +13,7 @@ Make sure you have requests installed
 ```python
 pip install requests
 ```
+PySimpleGUI
+```console
+pip install PySimpleGUI
+```
