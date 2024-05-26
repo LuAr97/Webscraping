@@ -9,3 +9,7 @@ LXML
 ```python
 pip install lxml
 ```
+Make sure you have requests installed
+```python
+pip install requests
+```
