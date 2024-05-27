@@ -8,7 +8,7 @@ def job_seek():
     html_text = requests.get('https://www.seek.com.au/Software-Developer-jobs/in-Melbourne-VIC-3000').text
     soup = BeautifulSoup(html_text, 'lxml')
     options = soup.find_all('article')
-
+    
     for option in options:
         opportunity = {}
         html_option = requests.get('https://www.seek.com.au'+option.div.a['href']).text
